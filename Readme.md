@@ -2,6 +2,17 @@
 
 This project contains a Dockerfile to build a container image that runs dcamprof.
 
+
+It uses Debian:10-slim base image and build the source obtained from:
+
+https://github.com/Beep6581/dcamprof
+
+More specifically it downloads:
+
+https://github.com/Beep6581/dcamprof/archive/refs/heads/master.zip
+
+
+
 ## Build
 
 ```
